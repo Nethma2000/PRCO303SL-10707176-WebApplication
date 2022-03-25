@@ -7,14 +7,15 @@
 
 <body>
     <div class="container">
+     
         <form id="Form1">
             <h3>CREATE ACCOUNT</h3>
             <br />
             <h4>Setup Login Credentials</h4>
             <br />
-            <input type="text" placeholder="Email" required>
-            <input type="password" placeholder="Password" required>
-            <input type="password" placeholder="Confirm Password" required>
+            <input type="text" name="email" placeholder="Email" required>
+            <input type="password" name="password"  placeholder="Password" required>
+            <input type="password" name="confirm"  placeholder="Confirm Password" required>
 
             <div class="btn-box">
                 <button type="button" id="Next1">Next</button>
@@ -26,11 +27,11 @@
             <br />
             <h4>Personal Details</h4>
             <br />
-            <input type="text" placeholder="Name" required>
-            <input type="text" placeholder="Company" required>
-            <input type="text" placeholder="Designtion" required>
-            <input type="text" placeholder="Field" required>
-            <input type="text" placeholder="Mobile number" required>
+            <input type="text" name="name"  placeholder="Name" required>
+            <input type="text" name="company" placeholder="Company" required>
+            <input type="text" name="designation" placeholder="Designtion" required>
+            <input type="text" name="field"  placeholder="Field" required>
+            <input type="text" name="mobileno"  placeholder="Mobile number" required>
 
             <div class="btn-box">
                 <button type="button" id="Back1">Back</button>
@@ -43,17 +44,17 @@
             <br />
             <h4>Social Links and Qualifications</h4>
             <br />
-            <input type="text" placeholder="Medium">
-            <input type="text" placeholder="Linkedin">
-            <input type="text" placeholder="Github">
+            <input type="text" name="medium"  placeholder="Medium">
+            <input type="text" name="linkedin"  placeholder="Linkedin">
+            <input type="text"  name="github" placeholder="Github">
             <br />
             <br />
             <div class="input-box message-box">
 
-            <textarea name="" id="#txt1" cols="35" rows="2.5" class="form-control" placeholder="Qualifications"></textarea>
+            <textarea name="qualifications" id="#txt1" cols="35" rows="2.5" class="form-control" placeholder="Qualifications"></textarea>
             <br />
             <br />
-            <textarea name="" id="" cols="35" rows="2.5" class="form-control" placeholder="Work Experience"></textarea>
+            <textarea name="work_experience" id="" cols="35" rows="2.5" class="form-control" placeholder="Work Experience"></textarea>
             </div>
             <div class="btn-box">
                 <button type="button" id="Back2">Back</button>
@@ -61,6 +62,7 @@
             </div>
         </form>
 
+ 
         <div class="step-row">
 
             <div id="progress"></div>
