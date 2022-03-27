@@ -13,8 +13,6 @@ $github=$_POST['github'];
 $qualifications=$_POST['qualifications'];
 $work_experience=$_POST['work_experience'];
 
-
-
  $con= new mysqli('localhost','root','123','careernextgen');
 if($con->connect_error){
     die("Connection failed");
